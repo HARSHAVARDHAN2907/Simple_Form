@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>FORM USING HTML AND CSS</title>
+        <style>
+            body{
+                text-align: center ;
+                background-color: black;
+            }
+            .form{
+                color: white;
+                font-size: 20px;
+            }
+            h1{
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WELCOME TO FORMS</h1>
+        <div class="form">
+            <form>
+                Enter Name:<input type="text" id="name" size="30px" placeholder="Eg:Harsh"><br><br>
+                Enter Department:<input type="text" id="dept" size="30px" placeholder="Eg:CSE/IT"><br><br>
+                Preferred Sport:<input type="radio" id="cricket" name="fav_sport" value="cricket">
+                <label for="cricket">Cricket</label>
+                <input type="radio" id="baseball" name="fav_sport" value="baseball">
+                <label for="baseball">Baseball</label>
+                <input type="radio" id="hockey" name="fav_sport" value="hockey">
+                <label for="hockey">Hockey</label><br><br>
+                Languages Known:<input type="checkbox" id="Hindi" name="languages" value="Hindi">
+                <label for="hindi">Hindi</label>
+                <input type="checkbox" id="English" name="languages" value="English">
+                <label for="English">English</label>
+                <input type="checkbox" id="Tamil" name="languages" value="Tamil">
+                <label for="Tamil">Tamil</label>
+                <input type="checkbox" id="Japanese" name="languages" value="Japanese">
+                <label for="Japanese">Japanese</label><br><br>
+                <button onclick="alert('Submitted Successfully')">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
